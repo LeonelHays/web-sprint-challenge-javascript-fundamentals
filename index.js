@@ -18,7 +18,8 @@ myFunction();
 //🚀🚀🚀 ⬇️ 📝 Explanation ⬇️ 📝 🚀🚀🚀: n
 /*
 because it inherited it form the Parent function() myFunction.
-functions can always reach out to grab stuff, but other things cannot reach in the function, since nestedFunction is inside
+
+Functions can always reach out to grab stuff, but other things cannot reach in the function, since nestedFunction is inside
 Myfunction it can reach out in to myFunction and get the variable.
 
 
@@ -31,13 +32,14 @@ Myfunction it can reach out in to myFunction and get the variable.
 For example, `summation(4)` should return 10 because 1+2+3+4 is 10. Note, you may use a for loop for this function if you wish */
 
 function summation(number) {
-  var nums = [1,2,3];
+  var nums = [0,1,2,3];
   for (var i = 0; i < nums.length; i++) {
     number += nums[i];
   }
    return number
 }
  console.log('task 2 counter', summation(4));
+ 
 
 // 🦁🦁🦁 Topic 2: ADVANCED Array Methods 🦁🦁🦁
 // Given this zoo data from around the United States, follow the instructions below. Use the specific array methods in the requests below to solve the problems.
